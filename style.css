@@ -1,0 +1,77 @@
+body{
+	background-image:url("background.jpg");
+	background-size: 100% 100%;
+}
+.content{
+	width:700px;
+	height:770px;
+	margin:auto;
+	background:rgba(0,0,0, 0.5 );
+	color:white;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-radius:10px;
+	padding:50px 100px 50px 100px;
+}
+/* Creo la barra verde */
+header{
+	text-align:center;
+	color:#66FF00;
+	font-size:15px;
+	margin-bottom:5px;
+}
+
+header img{
+	width:250px;
+}
+/*  barra dove inserisco i button */
+nav {
+	background:#32CD32;
+	display:inline-block;
+	width:700px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin:auto;
+}
+
+.block{
+	margin-top: 30px;
+	margin-bottom:30px;
+	}
+
+.block h3{
+	font-size:20px;
+	padding-left:5px;
+	font-weight:500;
+	display:inline-block;
+	}
+
+.block p{
+	padding-top:1px;
+	font-size:15px;
+	}
+
+.block span{
+	display: block;
+	border-radius:7px;
+}
+/* creo freccia */
+.segno:before{
+	content:"\27B3";
+}
+/* imposto grandezza carica monopattino */
+.carica1{
+	width:40%;
+	border:15px solid #FF8000;
+}
+
+.carica2{
+	width:60%;
+	border:15px solid #177245;
+}
+
+.carica3 {
+	width:15%;
+	border:15px solid #CB3234;
+}
